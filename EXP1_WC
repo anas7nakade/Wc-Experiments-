@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AIKTC College Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        nav {
+            background-color: #004080;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 5px gray;
+        }
+        img {
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #004080;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0073e6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Links -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#facility">Facility</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Anjuman-I-Islam's Kalsekar Technical Campus (AIKTC)</h1>
+        <img src="https://imgs.search.brave.com/BFYMp5xo4POD7Qq6QaIqp_hWRfpLcQSy_pVNzlNwsog/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuY29sbGVnZWR1/bmlhLmNvbS9wdWJs/aWMvaW1hZ2UvQUlL/VEMxX2M4N2JiYzA2/ODUxODkzNmI0ZWM0/ZTA4NmE0YjAzMjZl/LnBuZw" 
+             alt="AIKTC College Building" width="600">
+
+        <p>
+            Our college is dedicated to excellence in education and research. 
+            Explore our modern <em>Facilities</em> and feel free to 
+            <a href="#contact">Contact Us</a> for more information.
+        </p>
+
+    </section>
+
+    <!-- Facility Section -->
+    <section id="facility">
+        <h2>Our Facilities</h2>
+
+        <h3>Campus Facilities (Unordered List)</h3>
+        <ul>
+            <li>Modern Digital Library</li>
+            <li>Advanced Computer Labs</li>
+            <li>Wi-Fi Enabled Campus</li>
+            <li>Sports Complex & Gym</li>
+            <li>Hostel & Cafeteria</li>
+        </ul>
+
+        <h3>Top Features (Ordered List)</h3>
+        <ol>
+            <li>Placement Assistance</li>
+            <li>Industry Collaboration</li>
+            <li>Research and Innovation Labs</li>
+        </ol>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..."></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer style="text-align:center; margin-top:30px; color:gray;">
+        <p>© 2025 AIKTC College Website | Created for HTML Practice</p>
+    </footer>
+
+</body>
+</html>
